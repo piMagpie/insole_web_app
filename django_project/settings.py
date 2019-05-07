@@ -123,3 +123,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'blog-home'
+
+LOGIN_URL = 'login' # login is the  name that we gave to our URL pattern for the login route
